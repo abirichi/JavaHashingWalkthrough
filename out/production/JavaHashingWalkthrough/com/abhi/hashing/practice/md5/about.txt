@@ -1,0 +1,13 @@
+
+
+The MD5 Message-Digest Algorithm is a widely used cryptographic hash function that produces a
+128-bit (16-byte) hash value. It’s very simple and straight forward; the basic idea is to map data
+sets of variable length to data sets of a fixed length.
+
+ In order to do this, the input message is split into chunks of 512-bit blocks. A padding is added to
+  the end so that it’s length can be divided by 512. Now, these blocks are processed by the MD5 algorithm,
+  which operates in a 128-bit state, and the result will be a 128-bit hash value. After applying MD5,
+  generated hash is typically a 32-digit hexadecimal number.
+
+ Here, the password to be encoded is often called the “message” and the
+ generated hash value is called the message digest or simply “digest”.
